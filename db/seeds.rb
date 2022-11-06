@@ -5,10 +5,10 @@ Product.destroy_all
 User.destroy_all
 
 puts "Creating users..."
-user1 = User.create(name: Faker::Name.name)
-user2 = User.create(name: Faker::Name.name)
-user3 = User.create(name: Faker::Name.name)
-
+user1 = User.create(name: "Janice" )
+user2 = User.create(name: "Humble")
+user3 = User.create(name: "Patience")
+# Faker::Name.name
 puts "Creating products..."
 product1 = Product.create(name: "Stapler", price: 10)
 product2 = Product.create(name: "Whiteboard", price: 15)
